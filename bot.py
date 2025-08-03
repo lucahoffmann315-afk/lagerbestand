@@ -82,9 +82,7 @@ async def bestand(ctx):
         await ctx.send("❌ Es ist ein unerwarteter Fehler aufgetreten beim Abrufen der Daten.")
 
 
-if __name__ == "__main__":
-    token = os.getenv("MTM5ODU5NjEyMTQ0NTUzMTgxOA.GBm8tB.-0ejo7mjYO9_v0TsJGXM7ETVeNFKP5j-eqbPMw")
-    if not token:
-        print("❌ Kein Discord-Token gefunden. Bitte Umgebungsvariable DISCORD_TOKEN setzen.")
-        exit(1)
+
+    token = ("MTM5ODU5NjEyMTQ0NTUzMTgxOA.GBm8tB.-0ejo7mjYO9_v0TsJGXM7ETVeNFKP5j-eqbPMw")
+   
     bot.run(token)
